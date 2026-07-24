@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Visit Us | Crust & Crumb Sourdough Bakery</title>
+<meta name="description" content="Find our bakery hours, location directions, and pre-order pickup details. Join us early for warm, fresh wood-fired sourdough and morning pastries.">
+<link rel="canonical" href="https://crust-and-crumb-f746.sites.tibly.ai/visit">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://crust-and-crumb-f746.sites.tibly.ai/visit">
+<meta property="og:site_name" content="Crust &amp; Crumb Sourdough">
+<meta property="og:title" content="Visit Us | Crust & Crumb Sourdough Bakery">
+<meta property="og:description" content="Find our bakery hours, location directions, and pre-order pickup details. Join us early for warm, fresh wood-fired sourdough and morning pastries.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<style type="text/tailwindcss">
+@theme {
+  --color-surface: #FFEEDD;
+  --color-ink: #4A2810;
+  
+  --color-brand-50: #FFF9F2;
+  --color-brand-100: #FFEEDD;
+  --color-brand-200: #FCD7B8;
+  --color-brand-300: #F7BA8B;
+  --color-brand-400: #EE9658;
+  --color-brand-500: #E2722B;
+  --color-brand-600: #C85A17;
+  --color-brand-700: #9E430F;
+  --color-brand-800: #75310B;
+  --color-brand-900: #4A1F05;
+
+  --color-accent-50: #FFF5F2;
+  --color-accent-100: #FCE6DF;
+  --color-accent-200: #F9CDBF;
+  --color-accent-300: #F3AA95;
+  --color-accent-400: #E29578;
+  --color-accent-500: #CB7251;
+  --color-accent-600: #B15131;
+  --color-accent-700: #8D3C21;
+  --color-accent-800: #682B17;
+  --color-accent-900: #441A0D;
+
+  --font-display: "DM Serif Display", serif;
+  --font-body: "DM Sans", sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 36px;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3.5 font-medium rounded-full transition-all duration-300 text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-600;
+  }
+  .btn-primary {
+    @apply btn bg-brand-600 text-brand-50 hover:bg-brand-700 shadow-sm hover:shadow-md active:scale-[0.98];
+  }
+  .btn-secondary {
+    @apply btn bg-accent-200 text-brand-900 hover:bg-accent-300 active:scale-[0.98];
+  }
+  .card {
+    @apply bg-surface p-8 rounded-lg border border-brand-200/50 transition-all duration-300;
+  }
+}
+</style>
+</head>
+<body>
+<!-- block:header -->
+<header class="w-full bg-brand-50 border-b border-brand-200/40 sticky top-0 z-50 transition-all duration-200">
+  <div class="max-w-7xl mx-auto px-6 h-20 md:h-24 flex items-center justify-between gap-4">
+    
+    <!-- Logo -->
+    <a href="/" class="flex items-center gap-2.5 group shrink-0">
+      <div class="w-10 h-10 rounded-full bg-brand-600 flex items-center justify-center text-brand-50 text-xl font-display transition-transform duration-300 group-hover:rotate-12">
+        C
+      </div>
+      <span data-tibly-field="business-name" class="font-display text-2xl tracking-wide text-ink transition-colors duration-200 group-hover:text-brand-600">
+        Crust & Crumb Sourdough
+      </span>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="hidden md:flex items-center gap-1.5 bg-surface/50 p-1.5 rounded-full border border-brand-200/40">
+      <a href="/" class="px-5 py-2 rounded-full text-sm font-medium text-ink hover:text-brand-600 hover:bg-brand-50 transition-all duration-200">Home</a>
+      <a href="/menu" class="px-5 py-2 rounded-full text-sm font-medium text-ink hover:text-brand-600 hover:bg-brand-50 transition-all duration-200">Daily Bakes</a>
+      <a href="/our-story" class="px-5 py-2 rounded-full text-sm font-medium text-ink hover:text-brand-600 hover:bg-brand-50 transition-all duration-200">Our Story</a>
+      <a href="/visit" class="px-5 py-2 rounded-full text-sm font-medium text-ink hover:text-brand-600 hover:bg-brand-50 transition-all duration-200">Visit Us</a>
+    </nav>
+
+    <!-- Header Action Button -->
+    <div class="hidden sm:block shrink-0">
+      <a href="/visit" class="btn-primary py-2.5 px-5 text-sm">
+        Fresh Bread Today
+      </a>
+    </div>
+
+    <!-- Mobile Menu Button (CSS-driven drop mechanism target) -->
+    <label for="mobile-menu-toggle" class="md:hidden flex flex-col justify-between w-6 h-5 cursor-pointer z-50">
+      <span class="w-full h-0.5 bg-ink rounded-full transition-all"></span>
+      <span class="w-full h-0.5 bg-ink rounded-full transition-all"></span>
+      <span class="w-full h-0.5 bg-ink rounded-full transition-all"></span>
+    </label>
+    <input type="checkbox" id="mobile-menu-toggle" class="peer hidden" />
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="fixed inset-0 bg-brand-900/40 backdrop-blur-sm opacity-0 pointer-events-none peer-checked:opacity-100 peer-checked:pointer-events-auto transition-opacity duration-300 z-40 md:hidden">
+      <div class="absolute right-4 top-24 left-4 bg-brand-50 rounded-lg p-6 shadow-xl border border-brand-200 flex flex-col gap-4 transform -translate-y-4 peer-checked:translate-y-0 transition-transform duration-300">
+        <a href="/" class="px-4 py-3 rounded-md text-base font-medium text-ink hover:bg-surface transition-colors">Home</a>
+        <a href="/menu" class="px-4 py-3 rounded-md text-base font-medium text-ink hover:bg-surface transition-colors">Daily Bakes</a>
+        <a href="/our-story" class="px-4 py-3 rounded-md text-base font-medium text-ink hover:bg-surface transition-colors">Our Story</a>
+        <a href="/visit" class="px-4 py-3 rounded-md text-base font-medium text-ink hover:bg-surface transition-colors">Visit Us</a>
+        <div class="border-t border-brand-200 pt-4 mt-2">
+          <a href="/visit" class="w-full text-center btn-primary py-3">Find Our Shop</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</header>
+<!-- /block:header -->
+<!-- block:warm-intro -->
+<section class="relative bg-brand-50 pt-20 pb-24 md:pt-28 md:pb-32 overflow-hidden" data-block="warm-intro">
+  <!-- Warm glow radial accent background -->
+  <div class="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-accent-100/60 blur-3xl pointer-events-none"></div>
+  <div class="absolute -bottom-20 -left-20 w-80 h-80 rounded-full bg-brand-200/40 blur-2xl pointer-events-none"></div>
+
+  <div class="max-w-7xl mx-auto px-6 relative z-10">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+      
+      <!-- Content Column -->
+      <div class="lg:col-span-7 flex flex-col items-start text-left">
+        <span class="inline-block px-4 py-1.5 rounded-full bg-accent-200 text-brand-900 text-xs font-semibold uppercase tracking-wider mb-6">
+          Gather Around Our Hearth
+        </span>
+        <h1 class="font-display text-5xl md:text-7xl text-ink leading-[1.05] tracking-tight mb-6">
+          Follow the smell of fresh bread to our door.
+        </h1>
+        <p class="text-lg md:text-xl text-ink/80 font-body max-w-xl leading-relaxed mb-8">
+          Every morning before dawn, we fire up our stone hearth deck oven. By seven, the racks are loaded with dark, caramelized crusts and flaky croissants. We bake in small batches, and when the shelves are empty, we close for the day.
+        </p>
+
+        <!-- Quick Detail Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-lg p-6 bg-surface rounded-xl border border-brand-200/40 mb-8">
+          <div>
+            <h3 class="font-display text-sm font-semibold text-brand-700 uppercase tracking-wider mb-1">Morning Hours</h3>
+            <p data-tibly-field="hours" class="text-ink text-base font-medium">Wed–Sun: 7:00 AM – 2:00 PM</p>
+            <p class="text-xs text-ink/60 mt-1">Or until we sell out completely</p>
+          </div>
+          <div>
+            <h3 class="font-display text-sm font-semibold text-brand-700 uppercase tracking-wider mb-1">Our Location</h3>
+            <p data-tibly-field="address" class="text-ink text-base font-medium">142 Hearthside Lane, Old Town District</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+          <a href="#pickup-schedule" class="btn-primary text-center">
+            How to Pre-Order
+          </a>
+          <a href="tel:555-0142" data-tibly-field="phone" class="btn-secondary text-center">
+            Call the Counter
+          </a>
+        </div>
+      </div>
+
+      <!-- Image Column (Oversized, Candid Crop) -->
+      <div class="lg:col-span-5 relative">
+        <div class="absolute inset-0 bg-brand-200 rounded-2xl transform rotate-2 scale-102"></div>
+        <div class="relative bg-surface p-3 rounded-2xl shadow-xl border border-brand-200/60 transform -rotate-1 transition-transform duration-500 hover:rotate-0">
+          <img 
+            src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=800" 
+            alt="Baker slicing fresh warm sourdough loaf showing open airy crumb" 
+            class="w-full h-[450px] object-cover rounded-xl"
+          />
+          <div class="p-4 text-center">
+            <p class="font-display text-lg text-ink font-semibold">Crust & Crumb Sourdough</p>
+            <p class="text-xs text-brand-600">Fresh bakes, pulled from the bricks daily</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- /block:warm-intro -->
+<!-- block:visit-cta -->
+<section id="pickup-schedule" class="bg-surface py-20 md:py-28" data-block="visit-cta">
+  <div class="max-w-7xl mx-auto px-6">
+    
+    <!-- Title & Intro -->
+    <div class="max-w-3xl mb-16">
+      <h2 class="font-display text-4xl md:text-5xl text-ink leading-tight mb-4">
+        Reserve your daily bakes.
+      </h2>
+      <p class="text-base md:text-lg text-ink/80 leading-relaxed">
+        Our sourdough loaves take thirty-six hours of slow fermentation to develop their distinctive deep flavor. Because of this slow, hands-on craft, quantities are strictly limited. You can pre-order your favorite sandwich loaves, baguettes, or sweet pastries using our simple pickup inquiry below.
+      </p>
+    </div>
+
+    <!-- Asymmetrical Layout: Form Left, Info Cards Right -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+      
+      <!-- Contact Form Column -->
+      <div class="lg:col-span-7 bg-brand-50 p-8 md:p-10 rounded-xl border border-brand-200/50 shadow-sm">
+        <h3 class="font-display text-2xl text-ink mb-2">Pre-Order & General Inquiry</h3>
+        <p class="text-sm text-ink/70 mb-8">Send us a note to reserve a loaf or ask about seasonal pastry catering. We respond same-day before 4 PM.</p>
+        
+        <form method="POST" action="https://api.tibly.ai/api/public/site-forms" class="space-y-6">
+          <input type="hidden" name="_page" value="/visit">
+          <input type="text" name="_gotcha" class="hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-semibold text-brand-800 uppercase tracking-wider mb-2">Your Name</label>
+              <input type="text" name="name" required placeholder="Julian Smith" class="w-full px-4 py-3 rounded-md bg-surface border border-brand-200/60 focus:outline-none focus:ring-2 focus:ring-brand-500 text-ink text-sm transition-all" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-brand-800 uppercase tracking-wider mb-2">Email Address</label>
+              <input type="email" name="email" required placeholder="julian@example.com" class="w-full px-4 py-3 rounded-md bg-surface border border-brand-200/60 focus:outline-none focus:ring-2 focus:ring-brand-500 text-ink text-sm transition-all" />
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-brand-800 uppercase tracking-wider mb-2">Pre-Order Date & Items</label>
+            <textarea name="message" rows="4" required placeholder="What are you hoping to reserve, and for which morning? (e.g., One country sourdough loaf, two almond croissants for Saturday morning)" class="w-full px-4 py-3 rounded-md bg-surface border border-brand-200/60 focus:outline-none focus:ring-2 focus:ring-brand-500 text-ink text-sm transition-all"></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary w-full sm:w-auto">
+            Submit Pre-Order Request
+          </button>
+        </form>
+      </div>
+
+      <!-- Info Column -->
+      <div class="lg:col-span-5 space-y-8">
+        
+        <!-- Step 1 Card -->
+        <div class="flex gap-4">
+          <div class="w-12 h-12 rounded-full bg-accent-200 text-brand-900 font-display text-xl font-bold flex items-center justify-center shrink-0">
+            1
+          </div>
+          <div>
+            <h4 class="font-display text-xl text-ink mb-1">Send your request</h4>
+            <p class="text-sm text-ink/80 leading-relaxed">
+              Place your reservation inquiry before 2:00 PM the prior day. This allows our bakers to adjust our overnight dough schedules to fit your loaf.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 2 Card -->
+        <div class="flex gap-4">
+          <div class="w-12 h-12 rounded-full bg-accent-200 text-brand-900 font-display text-xl font-bold flex items-center justify-center shrink-0">
+            2
+          </div>
+          <div>
+            <h4 class="font-display text-xl text-ink mb-1">Receive confirmation</h4>
+            <p class="text-sm text-ink/80 leading-relaxed">
+              We will confirm your order details and specify your pickup window. No payment is required until you hold the warm loaf at the counter.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 Card -->
+        <div class="flex gap-4">
+          <div class="w-12 h-12 rounded-full bg-accent-200 text-brand-900 font-display text-xl font-bold flex items-center justify-center shrink-0">
+            3
+          </div>
+          <div>
+            <h4 class="font-display text-xl text-ink mb-1">Early-morning pickup</h4>
+            <p class="text-sm text-ink/80 leading-relaxed">
+              Arrive at <span data-tibly-field="address" class="font-medium">142 Hearthside Lane, Old Town District</span> during your window. Walk straight to the registers, give your name, and enjoy your morning bakes.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- /block:visit-cta -->
+<!-- block:testimonial -->
+<section class="bg-brand-50 py-20 md:py-24 border-t border-brand-200/40 relative overflow-hidden" data-block="testimonial">
+  <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+    <!-- Stylized Quotation Mark icon -->
+    <span class="inline-block font-display text-7xl text-accent-400/40 leading-none mb-4">“</span>
+    
+    <p class="font-display text-2xl md:text-3xl text-ink leading-relaxed mb-8 italic">
+      The Country Sourdough is simply unparalleled around here. The crust has that shatter-crisp wood-fired bite, and the interior is perfectly springy and custody. Make sure you show up by eight in the morning or you will absolutely miss out.
+    </p>
+    
+    <div class="flex items-center justify-center gap-3">
+      <div class="w-10 h-10 rounded-full bg-brand-200 overflow-hidden">
+        <img 
+          src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150" 
+          alt="Local customer headshot in neighborhood sourdough bakery" 
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <div class="text-left">
+        <p class="text-sm font-semibold text-ink">Clara Mitchell</p>
+        <p class="text-xs text-brand-600">Old Town Resident & Regular Patron</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /block:testimonial -->
+<!-- block:footer -->
+<footer class="w-full bg-surface border-t border-brand-200/60 pt-16 pb-12 text-ink">
+  <div class="max-w-7xl mx-auto px-6">
+    
+    <!-- Top grid -->
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-12 pb-12 border-b border-brand-200/50">
+      
+      <!-- Brand column -->
+      <div class="md:col-span-5 flex flex-col gap-4">
+        <span data-tibly-field="business-name" class="font-display text-3xl tracking-wide text-brand-700">
+          Crust & Crumb Sourdough
+        </span>
+        <p class="text-ink/80 text-base max-w-sm leading-relaxed">
+          Crafting wild yeast sourdough, morning pastries, and seasonal tarts from locally sourced grains. Baked raw in our wood-fired deck oven every morning.
+        </p>
+        
+        <!-- Social/booking Links wrapper -->
+        <div data-tibly-field="links" class="flex items-center gap-3 mt-2">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-brand-50 border border-brand-200 flex items-center justify-center text-brand-700 hover:bg-brand-600 hover:text-brand-50 transition-all duration-300" aria-label="Instagram">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.907c.961 0 1.36 1.246.606 1.833l-3.97 2.887a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.971-2.887a1 1 0 00-1.176 0l-3.97 2.887c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.97-2.887c-.754-.587-.355-1.833.606-1.833h4.907a1 1 0 00.95-.69l1.519-4.674z"></path>
+            </svg>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-brand-50 border border-brand-200 flex items-center justify-center text-brand-700 hover:bg-brand-600 hover:text-brand-50 transition-all duration-300" aria-label="Facebook">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick links column -->
+      <div class="md:col-span-3 flex flex-col gap-4">
+        <h3 class="font-display text-lg text-ink font-semibold tracking-wider uppercase">Navigation</h3>
+        <ul class="flex flex-col gap-2.5">
+          <li><a href="/" class="text-ink/80 hover:text-brand-600 text-sm transition-colors">Home</a></li>
+          <li><a href="/menu" class="text-ink/80 hover:text-brand-600 text-sm transition-colors">Daily Bakes</a></li>
+          <li><a href="/our-story" class="text-ink/80 hover:text-brand-600 text-sm transition-colors">Our Story</a></li>
+          <li><a href="/visit" class="text-ink/80 hover:text-brand-600 text-sm transition-colors">Visit Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact details column -->
+      <div class="md:col-span-4 flex flex-col gap-4">
+        <h3 class="font-display text-lg text-ink font-semibold tracking-wider uppercase">The Bakery</h3>
+        <ul class="flex flex-col gap-3 text-sm text-ink/80">
+          <li class="flex items-start gap-2">
+            <span class="font-medium text-brand-600 shrink-0">Address:</span>
+            <span data-tibly-field="address" class="leading-relaxed">142 Hearthside Lane, Old Town District</span>
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="font-medium text-brand-600 shrink-0">Call us:</span>
+            <a href="tel:555-0142" data-tibly-field="phone" class="hover:text-brand-600 hover:underline">555-0142</a>
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="font-medium text-brand-600 shrink-0">Email:</span>
+            <a href="mailto:hello@crustandcrumbbakery.com" data-tibly-field="email" class="hover:text-brand-600 hover:underline">hello@crustandcrumbbakery.com</a>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="font-medium text-brand-600 shrink-0">Hours:</span>
+            <span data-tibly-field="hours" class="leading-relaxed">Wed–Sun: 7:00 AM – 2:00 PM (or until sold out)</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom credit -->
+    <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-ink/60">
+      <p>&copy; 2026 <span data-tibly-field="business-name">Crust & Crumb Sourdough</span>. All rights reserved.</p>
+      <div class="flex gap-6">
+        <a href="/visit" class="hover:underline">Baking Schedules</a>
+        <a href="/visit" class="hover:underline">Directions</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+<!-- /block:footer -->
+  <script async src="https://api.tibly.ai/widget/v1.js"></script>
+</body>
+</html>
